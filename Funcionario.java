@@ -23,10 +23,13 @@ public class Funcionario {
     public double getSalario(){
         return this.salario;
     }
-    public void setDepatamento(String departamento){
+    public void setDepartamento(String departamento){
         this.departamento=departamento;
     }
     public String getDepartamento(){
         return this.departamento;
+    }
+    public double bonificacao(){
+        return this.salario*0.1;
     }
 }
